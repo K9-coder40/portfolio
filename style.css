@@ -1,0 +1,115 @@
+body{
+    background-color: ghostwhite;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+header{
+    text-align: center;
+    background-color: limegreen;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+nav a :hover{
+    background-color: blue;
+    color: goldenrod;
+}
+main{
+    max-width: fit-content;
+    margin: 10px auto;
+}
+section{
+    background-color: antiquewhite;
+    margin: 200px;
+    box-shadow: 0 0 10px limegreen;
+    border-radius: 5px;
+    padding: 10px;
+}
+section h2{
+    color: blue;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid lightsalmon;
+    text-align: center;
+}
+section p{
+    margin-bottom: 1rem;
+    color: dimgray;
+}
+h2{
+    color: rgb(0, 6, 65);
+    text-align: center;
+    text-decoration: none;
+}
+h3{
+    color: crimson;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    background-color: rgb(3, 154, 33);
+    color: crimson;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: yellow;
+    color: brown;
+}
+#form{
+    border:1px solid purple;
+    padding:20px;
+    border-radius: 5px;
+    width:300px;
+    margin:auto;
+    background-color: bisque;
+}
+#hello{
+    text-align: center;
+    
+
+}
+label{
+    display: inline-block;
+    font-weight: bolder;
+
+}
+input,textarea{
+    width:100%;
+    border:1px solid plum;
+    border-radius: 2px;
+   
+}
+input[type="submit"]{
+    background-color: purple;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+input[type="submit"]:hover{
+    background-color:blue;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: darkgray;
+    padding: 10px;
+}
