@@ -1,53 +1,79 @@
-body{
+
+body {
     background-color: ghostwhite;
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
+ 
 }
-header{
-    text-align: center;
+
+header {
     background-color: black;
+    color: aqua;
     padding: 10px;
-    color: aquamarine;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
-nav ul{
+
+header h1 {
+    font-size: 1.5rem;
+    color: limegreen;
+}
+
+nav ul {
     list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
 }
 nav li{
     display: inline;
 }
-nav a{
-    color: brown;
+
+nav a {
+    color: white;
     text-decoration: none;
-    font-weight: bold;
-    margin: 5px;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
-nav a :hover{
-    background-color: blue;
-    color: goldenrod;
+
+nav a :hover {
+    color: limegreen;
 }
-main{
-    max-width: 800px;
+
+main {
+    max-width: 900px;
     margin: 5px auto;
+    padding: 0 1.5rem;
 }
-section{
-    background-color: antiquewhite;
+
+section {
+    background-color:antiquewhite;
     margin: 10px 20px;
-    box-shadow: 0 0 10px limegreen;
+    padding: 10px;
+    margin-bottom: 2rem;
     border-radius: 5px;
-    padding: 15px;
+    box-shadow: 0 0 10px limegreen;
+
 }
-section h2{
+
+section h2 {
     color: blue;
-    display: inline-block;
+    display: inline;
     padding-bottom: 0.3rem;
     margin-bottom: 1rem;
     border-bottom: 2px solid lightsalmon;
     text-align: center;
+
 }
-section p{
+
+section p {
     margin-bottom: 1rem;
     color: black;
 }
@@ -60,57 +86,69 @@ h3{
     color: crimson;
     text-align: center;
 }
-.btn{
+
+.btn {
     display: inline-block;
     background-color: rgb(3, 154, 33);
-    color: crimson;
+    color:crimson;
     padding: 8px 15px;
-    text-decoration: none;
     border-radius: 5px;
-    font-weight: bold;
+    text-decoration: none;
+    font-weight: bolder;
     margin-top: 10px;
     text-align: center;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: yellow;
     color: brown;
 }
-#form{
+#hello{
+    text-align: center;
+}
+
+#form {
     border:1px solid purple;
     padding:20px;
     border-radius: 5px;
     width:300px;
     margin:auto;
     background-color: bisque;
-}
-#hello{
-    text-align: center;
-    
 
 }
-label{
-    display: inline-block;
-    font-weight: bolder;
 
+label {
+    display: inline;
+    font-weight: bold;
 }
-input,textarea{
+   
+
+input,textarea {
     width:100%;
     border:1px solid plum;
-    border-radius: 2px;
-   
+    border-radius: 4px;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     background-color: purple;
     border:none;
     color:white;
     cursor:pointer;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: flex-start;
+  
 }
-input[type="submit"]:hover{
-    background-color:blue;
+
+input[type="submit"]:hover {
+    background-color: blue;
 }
-footer{
+
+footer {
     text-align: center;
+    padding: 10px;
     background-color: black;
     color: darkgray;
-    padding: 10px;
+   
 }
+
