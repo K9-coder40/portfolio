@@ -143,6 +143,21 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: blue;
 }
+#head{
+   color:red;
+    animation:myanimation 3s 1;
+}
+@keyframes myanimation{
+    from{
+        color: rgb(174, 127, 6);
+        transform: translateX(0px);
+    }
+    to{
+        color: rgb(243, 5, 255);
+        transform: translateX(600px);
+    }
+}
+
 
 footer {
     text-align: center;
@@ -150,5 +165,19 @@ footer {
     background-color: black;
     color: darkgray;
    
+}
+/* responsive */
+@media(max-width:600px){
+    body{
+        background-color: brown;
+    }
+}
+.container{
+    background-color: beige;
+    flex-direction: column;
+}
+nav li{
+    display: block;
+    margin: 1px;
 }
 
